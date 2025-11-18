@@ -20,7 +20,7 @@ const NavBar = () => {
           <li
             key={link.href}
             className={`hover:bg-gray-500 ${
-              currentPath === link.href && 'bg-gray-500'
+              currentPath === link.href && 'bg-gray-300'
             }`}
           >
             <Link href={link.href}>{link.label}</Link>
